@@ -1,0 +1,91 @@
+/* Add your existing CSS rules here */
+
+/* Additional CSS for styling the form with a gray theme */
+
+/* Style for the container of the signup form with a gray theme */
+.signupContainer {
+  max-width: 400px; /* Set maximum width for the container */
+  margin: auto; /* Center the container */
+  padding: 20px; /* Add padding inside the container */
+  background-color: #f4f4f4; /* Set background color */
+  border-radius: 10px; /* Apply rounded corners */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+/* Style for the heading of the signup form with a gray theme */
+.signupHeading {
+  text-align: center; /* Center-align the text */
+  color: #333; /* Set text color */
+}
+
+/* Style for input fields in the signup form with a gray theme */
+.inputField {
+  margin-bottom: 15px; /* Add space between input fields */
+}
+
+.inputFieldi {
+  width: 100%; /* Set width to 100% */
+  padding: 10px; /* Add padding to the input field */
+  border: 1px solid #ccc; /* Set border styles */
+  border-radius: 5px; /* Apply rounded corners */
+}
+
+/* Style for the button container in the signup form with a gray theme */
+.btncontainer {
+  text-align: center; /* Center-align the content */
+}
+
+/* Style for the signup button with a gray theme */
+.btn {
+  padding: 10px 20px; /* Set padding for the button */
+  background-color: #555; /* Set background color */
+  color: #fff; /* Set text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Apply rounded corners */
+  cursor: pointer; /* Add pointer cursor */
+}
+
+/* Hover effect for the signup button with a gray theme */
+.btn:hover {
+  background-color: #333; /* Change background color on hover */
+}
+
+/* Style for the paragraph in the signup form with a gray theme */
+.p {
+  text-align: center; /* Center-align the text */
+  color: #777; /* Set text color */
+}
+
+/* Style for the horizontal line in the signup form with a gray theme */
+.hr {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center-align the items */
+  text-align: center; /* Center-align the text */
+  margin: 20px 0; /* Add margin above and below the line */
+}
+
+/* Style for the spans and 'or' text in the horizontal line with a gray theme */
+.span1,
+.span2 {
+  flex-grow: 1; /* Allow spans to grow and fill space */
+  height: 1px; /* Set height of the spans */
+  background-color: #ccc; /* Set background color of the spans */
+}
+
+.spanor {
+  margin: 0 10px; /* Add margin around the 'or' text */
+  font-weight: bold; /* Set font weight for the 'or' text */
+  color: #555; /* Set text color for the 'or' text */
+}
+
+/* Style for the Google button and related elements with a gray theme */
+.gbtn {
+  text-align: center; /* Center-align the content */
+}
+
+/* Style for the Google icon image with a gray theme */
+.gimg {
+  width: 30px; /* Set width of the image */
+  height: 30px; /* Set height of the image */
+  margin-right: 10px; /* Add margin to the right of the image */
+}

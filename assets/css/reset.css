@@ -1,0 +1,68 @@
+/* Additional CSS for styling the password reset form */
+
+/* Style for the container of the password reset form */
+.formContainer {
+  max-width: 400px; /* Set maximum width for the container */
+  margin: auto; /* Center the container */
+  text-align: center; /* Center-align the content */
+}
+
+/* Style for the main form in the password reset form */
+.form {
+  background-color: #f9f9f9; /* Set background color */
+  padding: 20px; /* Add padding inside the form */
+  border-radius: 10px; /* Apply rounded corners */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+/* Style for the image div in the password reset form */
+.img-div {
+  margin-bottom: 20px; /* Add margin at the bottom of the image div */
+}
+
+/* Style for the reset image in the password reset form */
+.resetimg {
+  width: 100px; /* Set width of the image */
+  height: 100px; /* Set height of the image */
+}
+
+/* Style for the heading in the password reset form */
+.heading {
+  font-size: 1.5em; /* Set font size for the heading */
+  color: #333; /* Set text color for the heading */
+  margin-bottom: 20px; /* Add margin at the bottom of the heading */
+}
+
+/* Style for input fields in the password reset form */
+.inputField {
+  margin-bottom: 15px; /* Add space between input fields */
+}
+
+.inputFieldi {
+  width: 100%; /* Set width to 100% */
+  padding: 10px; /* Add padding to the input field */
+  border: 1px solid #ccc; /* Set border styles */
+  border-radius: 5px; /* Apply rounded corners */
+}
+
+/* Style for the button container in the password reset form */
+.btncontainer {
+  text-align: center; /* Center-align the content */
+}
+
+/* Style for the reset button in the password reset form */
+.btn {
+  padding: 10px 20px; /* Set padding for the button */
+  background-color: #007bff; /* Set background color */
+  color: #fff; /* Set text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Apply rounded corners */
+  cursor: pointer; /* Add pointer cursor */
+}
+
+/* Hover effect for the reset button */
+.btn:hover {
+  background-color: #0056b3; /* Change background color on hover */
+}
+
+/* Optional: Add your own custom styles here */

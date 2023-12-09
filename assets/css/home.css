@@ -1,0 +1,22 @@
+/* Additional CSS for styling the home page */
+
+/* Set maximum width for the container, center it, and add padding */
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style for the main content div on the home page */
+.home-div {
+  background-color: #f4f4f4; /* Set background color */
+  padding: 30px; /* Add padding inside the div */
+  border-radius: 10px; /* Apply rounded corners */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+h1 {
+  color: #333; /* Set text color for h1 elements */
+  font-size: 2em; /* Set font size for h1 elements */
+}

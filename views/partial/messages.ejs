@@ -1,0 +1,23 @@
+<script>
+  <% // Check if there are success flash messages and display them using Noty if any %>
+  <% if (locals.flash.success && flash.success.length > 0) { %>
+      new Noty({
+          theme: 'relax',
+          text: '<%= flash.success %>',
+          type: 'success',
+          layout: 'topRight',
+          timeout: 1900,
+      }).show();
+  <% } %>
+
+  <% // Check if there are error flash messages and display them using Noty if any %>
+  <% if (locals.flash.error && flash.error.length > 0) { %>
+      new Noty({
+          theme: 'relax',
+          text: '<%= flash.error %>',
+          type: 'error',
+          layout: 'topRight',
+          timeout: 1900,
+      }).show();
+  <% } %>
+</script>

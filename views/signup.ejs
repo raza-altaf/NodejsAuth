@@ -1,0 +1,72 @@
+<!-- Link to external stylesheet for signup page -->
+<link rel="stylesheet" href="/css/signup.css" />
+
+<!-- Form for user signup -->
+<form action="/signup" method="post" class="signupContainer">
+  <!-- Heading for the signup form -->
+  <h1 class="signupHeading">Signup</h1>
+
+  <!-- Input field for user's name -->
+  <div class="inputField">
+    <input class="inputFieldi" type="text" name="name" placeholder="Name" />
+  </div>
+
+  <!-- Input field for user's email -->
+  <div class="inputField">
+    <input class="inputFieldi" type="text" name="email" placeholder="Email" />
+  </div>
+
+  <!-- Input field for user's password -->
+  <div class="inputField">
+    <input
+      class="inputFieldi"
+      type="password"
+      name="password"
+      placeholder="Password"
+    />
+  </div>
+
+  <!-- Input field for confirming user's password -->
+  <div class="inputField">
+    <input
+      class="inputFieldi"
+      type="password"
+      name="confirm_Password"
+      placeholder="Confirm Password"
+    />
+  </div>
+
+  <!-- Container for the signup button -->
+  <div class="btncontainer">
+    <button type="submit" class="btn">Signup</button>
+  </div>
+
+  <!-- Message for users who already have an account -->
+  <div>
+    <p>Already have an account <a href="/login">Login</a></p>
+  </div>
+
+  <!-- Horizontal rule for visual separation -->
+  <div class="hr">
+    <span class="span1">__________________</span>
+    <span class="spanor">Or</span>
+    <span class="span2">__________________</span>
+  </div>
+
+  <!-- Container for the Google login button -->
+  <div class="btncontainer">
+    <div class="gbtn">
+      <!-- Google logo -->
+      <img
+        class="gimg"
+        src="https://img.icons8.com/color/1x/google-logo.png"
+        alt=""
+      />
+      <!-- Link to initiate Google login -->
+      <a class="glink" href="/auth/google">Login with Google</a>
+    </div>
+  </div>
+</form>
+
+<!-- Include flash messages if needed -->
+<!-- <%- include("./partial/messages"); %> -->
