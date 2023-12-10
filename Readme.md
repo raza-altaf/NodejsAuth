@@ -113,6 +113,6 @@ node-authentication-system/
   GOOGLE_CLIENT_SECRET=your-google-client-secret
   ```
 
-## Contributing
+## Contribution
 
 Contributions are welcome! If you find a bug or have an idea for an improvement, feel free to open an issue or submit a pull request.
